@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/vdic-demo/static/css/main.2cce8147.chunk.css",
+    "main.js": "/vdic-demo/static/js/main.c7b22da5.chunk.js",
+    "main.js.map": "/vdic-demo/static/js/main.c7b22da5.chunk.js.map",
+    "runtime~main.js": "/vdic-demo/static/js/runtime~main.c942cf6d.js",
+    "runtime~main.js.map": "/vdic-demo/static/js/runtime~main.c942cf6d.js.map",
+    "static/js/2.ae97d107.chunk.js": "/vdic-demo/static/js/2.ae97d107.chunk.js",
+    "static/js/2.ae97d107.chunk.js.map": "/vdic-demo/static/js/2.ae97d107.chunk.js.map",
+    "index.html": "/vdic-demo/index.html",
+    "precache-manifest.9cd8f5c21a8b1b1266a3f4065cc4667c.js": "/vdic-demo/precache-manifest.9cd8f5c21a8b1b1266a3f4065cc4667c.js",
+    "service-worker.js": "/vdic-demo/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/vdic-demo/static/css/main.2cce8147.chunk.css.map",
+    "static/media/logo.svg": "/vdic-demo/static/media/logo.5d5d9eef.svg"
+  }
+}
