@@ -2,6 +2,7 @@ import React from 'react';
 
 import { makeStyles } from '@material-ui/core/styles';
 import { Container, Grid, Paper } from '@material-ui/core';
+import { Helmet } from 'react-helmet';
 
 import Thumbnail from './Thumbnail';
 import Topbar from './Topbar'
@@ -13,6 +14,10 @@ function App() {
 
   return (
     <div className={classes.App}>
+      <Helmet>
+        <title>VTuber図鑑(仮)</title>
+        <meta name='description' content='VTuber図鑑のデモ' />
+      </Helmet>
       <Container maxWidth='lg'>
         <Thumbnail />
         <Topbar />
