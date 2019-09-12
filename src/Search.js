@@ -1,5 +1,5 @@
 import React from 'react';
-import { Paper, IconButton, InputBase, TextField } from '@material-ui/core';
+import { Paper, IconButton, InputBase, Hidden } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { lightBlue, blueGrey } from '@material-ui/core/colors';
 import SearchIcon from '@material-ui/icons/Search';
@@ -11,21 +11,25 @@ function Search() {
   return (
     <div className={classes.Root}>
       <Paper className={classes.Paper}>
-        <h4 className={classes.X1}>記載人数 {numberOfVtuber}人</h4>
-        <h4>タグ</h4>
+        <Hidden smDown>
+          <h4 className={classes.X1}>記載人数 {numberOfVtuber}人</h4>
+          <h4>タグ</h4>
+        </Hidden>
         <div>
-          <p className={classes.TagDescription}>特徴(複数選択可)</p>
-          <ul className={classes.Tags}>
-            {tags.map(tag => (
-              <li className={classes.Tag}>{tag}</li>
-            ))}
-          </ul>
-          <p className={classes.TagDescription}>イメージカラー(２つまで)</p>
-          <ul className={classes.Tags}>
-            {colors.map(tag => (
-              <li className={classes.Tag}>{tag}</li>
-            ))}
-          </ul>
+          <Hidden smDown>
+            <p className={classes.TagDescription}>特徴(複数選択可)</p>
+            <ul className={classes.Tags}>
+              {tags.map(tag => (
+                <li className={classes.Tag}>{tag}</li>
+              ))}
+            </ul>
+            <p className={classes.TagDescription}>イメージカラー(２つまで)</p>
+            <ul className={classes.Tags}>
+              {colors.map(tag => (
+                <li className={classes.Tag}>{tag}</li>
+              ))}
+            </ul>
+          </Hidden>
           <Paper className={classes.SearchRoot}>
             <InputBase
               className={classes.SearchInput}
@@ -36,12 +40,14 @@ function Search() {
             </IconButton>
           </Paper>
         </div>
-        <p>おすすめ検索ワード</p>
-        <ul className={classes.Tags}>
-          {words.map(tag => (
-            <li className={classes.Tag}>{tag}</li>
-          ))}
-        </ul>
+        <Hidden smDown>
+          <p>おすすめ検索ワード</p>
+          <ul className={classes.Tags}>
+            {words.map(tag => (
+              <li className={classes.Tag}>{tag}</li>
+            ))}
+          </ul>
+        </Hidden>
       </Paper>
     </div>
   )
