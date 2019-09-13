@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/vdic-demo/static/js/main.1916e39e.chunk.js",
-    "main.js.map": "/vdic-demo/static/js/main.1916e39e.chunk.js.map",
+    "main.js": "/vdic-demo/static/js/main.bb874d32.chunk.js",
+    "main.js.map": "/vdic-demo/static/js/main.bb874d32.chunk.js.map",
     "runtime~main.js": "/vdic-demo/static/js/runtime~main.c942cf6d.js",
     "runtime~main.js.map": "/vdic-demo/static/js/runtime~main.c942cf6d.js.map",
-    "static/js/2.30664d39.chunk.js": "/vdic-demo/static/js/2.30664d39.chunk.js",
-    "static/js/2.30664d39.chunk.js.map": "/vdic-demo/static/js/2.30664d39.chunk.js.map",
+    "static/js/2.b8942626.chunk.js": "/vdic-demo/static/js/2.b8942626.chunk.js",
+    "static/js/2.b8942626.chunk.js.map": "/vdic-demo/static/js/2.b8942626.chunk.js.map",
     "index.html": "/vdic-demo/index.html",
-    "precache-manifest.7c4d0d01c4a8a30b0c4c3a27157d255a.js": "/vdic-demo/precache-manifest.7c4d0d01c4a8a30b0c4c3a27157d255a.js",
+    "precache-manifest.940e717ae6d668b08814974b37429050.js": "/vdic-demo/precache-manifest.940e717ae6d668b08814974b37429050.js",
     "service-worker.js": "/vdic-demo/service-worker.js"
   }
 }
